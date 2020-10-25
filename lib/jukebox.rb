@@ -23,6 +23,7 @@ def help
 end
 
 def list(songs)
+<<<<<<< HEAD
   songs.each_with_index do |song, index| 
     num = index + 1 
     puts "#{num}. #{song}"
@@ -39,6 +40,16 @@ def play(songs)
   else 
     puts "Invalid input, please try again"
   end
+=======
+  songs.each_with_index |song, index| do 
+    num = index + 1 
+    puts "#{index}. #{song}"
+  end
+end 
+
+def play(songs) 
+  a 
+>>>>>>> d46eb6e176b32cd7878080e39a7dd210613efae7
 end 
 
 def exit_jukebox
